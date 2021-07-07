@@ -1,0 +1,111 @@
+.intro {
+    margin: auto;
+    max-width: 80%;
+    color: #E5E5E5;
+    font-family: var(--f-ubuntu);
+    font-size: 2rem;
+}
+
+.intro_2 {
+    text-align: center;
+    color: white;
+    font-family: var(--f-arvo);
+    font-size: 4.3rem;
+    font-style: italic;
+}
+
+.intro_3 {
+    text-align: end;
+    margin-bottom: 0;
+}
+
+.svg {
+    width: 100%;
+    height: auto;
+}
+
+.hehe {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card_1 {
+    transform: translateX(-100px);
+    margin: 60px 0;
+}
+
+.card_1_body span, .card_2_body span {
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+}
+
+.card_1_body img, .card_2_body img {
+    padding: 0;
+    padding-right: 10px;
+    width: 1.5rem;
+    height: auto;
+}
+
+.card_1_body, .card_2_body {
+    font-family: var(--f-ubuntu);
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.card_1_body {
+    transform: translateX(100px);
+    width: calc(100% - 150px); 
+}
+
+.card_2 {
+    transform: translateX(100px);
+    margin: 60px 0;
+}
+
+.card_2_body {
+    transform: translateX(50px);
+    width: calc(100% - 150px);
+}
+
+.card_3 {
+    width: 80%;
+    margin: auto;
+}
+
+.card_3_body {
+    text-align: center;
+}
+
+.contact_list {
+    list-style-type: none;
+    width: 75%;
+    margin: auto;
+}
+
+.contact_list li {
+    /* border-bottom: 2px solid var(--cs-blue); */
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 30px;
+    transition: 0.1s ease-in;
+}
+
+.contact_list li:hover {
+    background-color: #E5E5E5;
+    cursor: pointer;
+}
+
+.contact_list li:last-child {
+    border-bottom: none;
+}
+
+.contact_list a {
+    text-decoration: none;
+}
+
+.contact_list img {
+    width: 128px;
+    height: auto;
+}

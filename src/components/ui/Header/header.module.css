@@ -1,0 +1,15 @@
+.header {
+    background-image: url('./../../../res/Header.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.header h1 {
+    padding: 80px 0;
+    font-family: var(--f-arvo);
+    font-size: 3rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+}

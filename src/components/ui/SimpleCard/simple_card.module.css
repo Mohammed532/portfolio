@@ -1,0 +1,17 @@
+.outer_shell {
+    border: 5px solid white;
+    border-radius: 110px;
+    padding: 16px;
+    background-color: transparent;
+}
+
+.body {
+    border-radius: 100px;
+    background-color: white;
+}
+
+.body * {
+    margin: 0;
+    padding: 10px;
+    color: var(--cs-black);
+}
