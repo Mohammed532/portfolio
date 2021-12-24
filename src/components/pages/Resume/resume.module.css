@@ -1,0 +1,9 @@
+.resume_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume h2 {
+    color: rgba(255, 255, 255, 0.8);
+}

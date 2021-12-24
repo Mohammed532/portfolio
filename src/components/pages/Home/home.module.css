@@ -31,7 +31,7 @@
 }
 
 .card_1 {
-    transform: translateX(-100px);
+    transform: translateX(-110px);
     margin: 60px 0;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .card_2 {
-    transform: translateX(100px);
+    transform: translateX(110px);
     margin: 60px 0;
 }
 

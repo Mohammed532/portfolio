@@ -1,0 +1,36 @@
+.outer_shell {
+    visibility: hidden;
+    padding: 20px 0;
+    border-radius: 50px;
+    display: inline-block;
+    border: 5px solid white;
+
+    transition: 0.3s ease;
+    transform-origin: center;
+}
+
+.link {
+    visibility: visible;
+    padding: 20px 150px;
+    border-radius: 50px;
+    background-color: var(--cs-light-blue);
+    color: white;
+    font-family: var(--f-ubuntu);
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+    transform-origin: center;
+}
+
+/* .outer_shell:hover {
+    visibility: visible;
+    padding: inherit 100px;
+    border-radius: 70px;
+} */
+
+.outer_shell:hover .link {
+    background-color: white;
+    color: black;
+}
