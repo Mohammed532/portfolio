@@ -5,5 +5,29 @@
 }
 
 .resume h2 {
+    margin: 10px 0;
+    padding: 20px 0;
+    border-bottom: 2px solid white;
     color: rgba(255, 255, 255, 0.8);
+    font: var(--f-montserrat);
+    font-style: italic;
+    font-size: 3em;
+}
+
+.skill_header {
+    text-align: right;
+}
+
+.res_info{
+    margin: 20px;
+}
+
+.divider {
+    background-color: white;
+}
+
+.skill_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

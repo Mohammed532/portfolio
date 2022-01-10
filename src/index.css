@@ -5,6 +5,7 @@
   --cs-light-blue: #2DA7FF;
   --cs-perriwinkle: #609FFD;
   --cs-black: #222121; 
+  --cs-blue-grad: linear-gradient(180deg, #2DA7FF 0%, #00126F 100%);
 
   /* FONTS */
   --f-arvo: 'Arvo', serif;
