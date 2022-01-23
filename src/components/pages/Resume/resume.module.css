@@ -14,6 +14,30 @@
     font-size: 3em;
 }
 
+.subsection {
+    color: white;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.subsection_heading {
+    margin-bottom: 26px;
+}
+
+.subsection_heading p {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.subsection_heading .date {
+    float: right;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
 .skill_header {
     text-align: right;
 }

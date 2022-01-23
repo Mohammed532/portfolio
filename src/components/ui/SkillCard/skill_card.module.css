@@ -3,7 +3,7 @@
     margin: 10px;
     padding: 26px;
     border-radius: 40px;
-    /* min-width: 25%; */
+    width: 400px;
 }
 
 .heading {
@@ -49,6 +49,10 @@
     color: var(--cs-light-blue);
 }
 
+.list {
+    position: relative;
+}
+
 .list ul {
     list-style: disc url(./../../../res/imgs/atom_icon_bullet.png);
     font-size: 30px;
@@ -60,4 +64,9 @@
     margin-bottom: 16px;
     width: 80%;
 }
+
+/* .list ul li:nth-child(2) {
+    position: absolute;
+    top: 0px;
+} */
 

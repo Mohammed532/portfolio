@@ -1,11 +1,31 @@
 const codingLangs = [
     {
+        skill: 'C++',
+        info: <div></div>
+    },
+    {
         skill: 'Javascript', 
-        info: "",
+        info: 
+        <div>
+            <p>Functional Programming, Object Oriented Programming, ES6, DOM manipulation</p>
+            <p><span>Utilized in:</span> Mobile App Development </p>
+        </div>,
     },
     {
         skill: 'Python',
-        info: "",
+        info: 
+        <div>
+            <p>Functional Programming, Object Oriented Programming, Numpy, Pandas</p>
+            <p><span>Utilized in:</span> NASA internship </p>
+        </div>,
+    },
+    {
+        skill: 'Java',
+        info: <div></div>
+    },
+    {
+        skill: 'Fortran',
+        info: <div></div>
     }
 ]
 
@@ -17,7 +37,34 @@ const webDevSkills = [
     {
         skill: 'React',
         info: "",
+    },
+    {
+        skill: 'Node.js',
+        info: "",
+    },
+    {
+        skill: 'Google Firebase / Cloud Services',
+        info: ""
     }
+]
+
+const designSkills = [
+    {
+        skill: 'Adobe Suite',
+        info: ""
+    },
+    {
+        skill: 'Figma',
+        info: ""
+    },
+    {
+        skill: 'Blender',
+        info: ""
+    },
+    {
+        skill: '3D CAD Software (Fusion 360, Solidworks)',
+        info: ""
+    },
 ]
 
 const opSys = [
@@ -36,4 +83,4 @@ const opSys = [
 
 ]
 
-export { codingLangs, webDevSkills, opSys }
+export { codingLangs, webDevSkills, designSkills, opSys }
