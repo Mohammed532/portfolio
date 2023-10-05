@@ -1,5 +1,6 @@
 .intro {
-    margin: auto;
+    text-align: center;
+    margin: 10% auto;
     max-width: 80%;
     color: #E5E5E5;
     font-family: var(--f-ubuntu);
@@ -7,15 +8,13 @@
 }
 
 .intro_2 {
-    text-align: center;
     color: white;
     font-family: var(--f-arvo);
-    font-size: 4.3rem;
+    font-size: 5rem;
     font-style: italic;
 }
 
 .intro_3 {
-    text-align: end;
     margin-bottom: 0;
 }
 
@@ -80,6 +79,8 @@
 
 .contact_list {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
     width: 75%;
     margin: auto;
 }
@@ -87,7 +88,6 @@
 .contact_list li {
     /* border-bottom: 2px solid var(--cs-blue); */
     margin: 20px auto;
-    width: 80%;
     border-radius: 30px;
     transition: 0.1s ease-in;
 }
@@ -97,15 +97,11 @@
     cursor: pointer;
 }
 
-.contact_list li:last-child {
-    border-bottom: none;
-}
-
 .contact_list a {
     text-decoration: none;
 }
 
 .contact_list img {
-    width: 128px;
+    width: 82px;
     height: auto;
 }

@@ -77,7 +77,7 @@ export default function Resume() {
                     </section>
                     <section className={styles.subsection_body}>
                     <p>Worked on a team to design and build Kope, a mental health mobile app where people can connect and
-                    seek advice about their mental health, using Figma for the design and React for the app
+                    seek advice about their mental health, using Figma for the design and React for the app.
                     Was 1st place out of six other teams in pitch competition</p>
                     <p>Tools Used: HTML/CSS, Javascript, React, Figma, Google Firebase</p>
                     </section>
